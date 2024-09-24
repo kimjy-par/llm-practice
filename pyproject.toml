@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hugging-face"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.44.2"
+jupyter = "^1.1.1"
+torch = "2.4.0"
+vllm = "^0.6.1.post2"
+weaviate-client = "^4.8.1"
+weaviate = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
